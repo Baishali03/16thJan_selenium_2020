@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40693" started-at="2020-01-16T05:45:59Z" finished-at="2020-01-16T05:46:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40693" started-at="2020-01-16T05:45:59Z" finished-at="2020-01-16T05:46:39Z">
+      <class name="com.maven_demo.DragDrop">
+        <test-method status="PASS" signature="launch_browser()[pri:0, instance:com.maven_demo.DragDrop@4439f31e]" name="launch_browser" is-config="true" duration-ms="40065" started-at="2020-01-16T11:15:59Z" finished-at="2020-01-16T11:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method status="PASS" signature="actions_demo()[pri:0, instance:com.maven_demo.DragDrop@4439f31e]" name="actions_demo" duration-ms="601" started-at="2020-01-16T11:16:39Z" finished-at="2020-01-16T11:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actions_demo -->
+      </class> <!-- com.maven_demo.DragDrop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

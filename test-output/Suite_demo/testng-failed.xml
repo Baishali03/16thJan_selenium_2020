@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_demo]">
+  <test name="Test_demo1(failed)">
+    <classes>
+      <class name="com.maven_demo.testNg_demo2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.maven_demo.testNg_demo2 -->
+      <class name="com.maven_demo.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.maven_demo.NewTest -->
+      <class name="com.maven_demo.Hello_selenium">
+        <methods>
+          <include name="rediffLogin"/>
+        </methods>
+      </class> <!-- com.maven_demo.Hello_selenium -->
+    </classes>
+  </test> <!-- Test_demo1(failed) -->
+</suite> <!-- Failed suite [Suite_demo] -->
